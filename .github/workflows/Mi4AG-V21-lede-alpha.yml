@@ -14,8 +14,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: Mi4AG-21/feeds.conf.default.lede
   CONFIG_FILE: Mi4AG-21/mi4agigabit.config
-  DIY_P1_SH: scripts/hook-feeds.sh
-  DIY_P2_SH: scripts/lean-openwrt.sh
+  DIY_P1_SH: scripts/OpenWRT/hook-feeds.sh
+  DIY_P2_SH: scripts/OpenWRT/lean-openwrt.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
